@@ -48,10 +48,10 @@ This project demonstrates hosting two applications on a Kubernetes cluster (1 Ma
 ![](./Img/Screenshot%20(10).png)
 
 ### Step 6 : Copy the loadbalancer DNS and access in your browser
-- Add /app1 at the end of DNS
+### Add /app1 at the end of DNS
 
 ![](./Img/Screenshot%20(12).png)
-- Add /app2 at the end of DNS
+### Add /app2 at the end of DNS
 
 ![](./Img/Screenshot%20(13).png)
 

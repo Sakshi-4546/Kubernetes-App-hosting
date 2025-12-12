@@ -1,9 +1,16 @@
 #  K8s Two-App Hosting Demo using Ingress
 
-This project demonstrates hosting two applications on a Kubernetes cluster (1 Master, 1 Worker) using Ingress and LoadBalancer.
+This project demonstrates how to host and expose two different applications on a Kubernetes cluster consisting of one Master node and one Worker node. It uses a LoadBalancer Service along with Ingress to route traffic to multiple applications through a single external DNS.
+The applications used in this demo are:
 
-- **app1 → nginx**  
-- **app2 → httpd**
+**App1 → nginx (Nginx web server)**
+
+**App2 → httpd (Apache web server)**
+To access the applications:
+
+<LoadBalancer-DNS>/app1 → Nginx app
+
+<LoadBalancer-DNS>/app2 → Apache app
 
 ## Step-By-Step
 

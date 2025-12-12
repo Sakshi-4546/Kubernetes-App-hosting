@@ -6,11 +6,12 @@ The applications used in this demo are:
 **App1 → nginx (Nginx web server)**
 
 **App2 → httpd (Apache web server)**  
+
 To access the applications:
 
-<LoadBalancer-DNS>/app1 → Nginx app
+(LoadBalancer-DNS)/app1 → Nginx app
 
-<LoadBalancer-DNS>/app2 → Apache app
+(LoadBalancer-DNS)/app2 → Apache app
 
 ## Step-By-Step
 
